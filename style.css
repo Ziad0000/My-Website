@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --base-color: white;
     --base-variant:#e8e9ed;
@@ -72,6 +76,30 @@
 
 #language option:last-child{
     display: block;
+}
+
+.up{
+    background-color: var(--accent-color);
+    position: fixed;
+    right: -50px;
+    bottom: 110px;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.4s;
+    line-height: 1px;
+
+}
+
+.up:hover{
+    background-color: #ff4321;
+
+}
+
+.up.show{
+    right: 30px;
 }
 
 header{
